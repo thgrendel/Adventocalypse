@@ -1,0 +1,56 @@
+#wreath {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(wreath.png) no-repeat;
+  background-size: 1200px; }
+
+#standl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1200px;
+  bottom: 0;
+  background: url(img/Colmar.Weihnachtsmarkt.01_02.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+#stop {
+  position: absolute;
+  left: 30px;
+  top: 60px;
+  width: 200px;
+  height: 70px;
+  cursor: pointer;
+  overflow: hidden; }
+  #stop:hover div {
+    visibility: visible; }
+  #stop div {
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(stop.png) no-repeat;
+    background-size: 200px;
+    text-indent: -50000px;
+    display: block;
+    visibility: hidden; }
+
+#legende {
+  background: url(clicki.png) no-repeat;
+  background-size: 300px;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: 0;
+  text-indent: -50000px;
+  right: 50px; }
+
+audio {
+  display: none; }
+
+/*# sourceMappingURL=styles.css.map */

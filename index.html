@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adventocalypse</title>
+    <!--script>
+
+        function musikspielen() {
+            var num = getRandomIntInclusive(1,2);
+            var id = String(num).padStart(2,'0');
+            var player = document.getElementById(id);
+            player.play();
+            console.log(player);
+        }
+    </script -->
+    <link href="styles.css" rel="stylesheet" />
+    <script src="jquery.js"></script>
+    <script src="advent.js"></script>
+</head>
+<body>
+<audio id="audio-1" autobuffer="true" controls src="snd/1-02_Do_They_Know_It_s_Christmas_.mp3"></audio>
+<audio id="audio-2" autobuffer="true" controls src="snd/1-03_Last_Christmas.mp3"></audio>
+<audio id="audio-3" autobuffer="true" controls src="snd/1-17_Feliz_Navidad.mp3"></audio>
+<audio id="audio-4" autobuffer="true" controls src="snd/2-21_White_Christmas.mp3"></audio>
+<audio id="audio-5" autobuffer="true" controls src="snd/2-23_Let_It_Snow!_Let_It_Snow!_Let_It_Snow!.mp3"></audio>
+<audio id="audio-6" autobuffer="true" controls src="snd/2-24_Winter_Wonderland.mp3"></audio>
+<audio id="audio-7" autobuffer="true" controls src="snd/2-25_Santa_Claus_Is_Coming_To_Town.mp3"></audio>
+<audio id="audio-8" autobuffer="true" controls src="snd/2-27_Jingle_Bells.mp3"></audio>
+<audio id="audio-9" autobuffer="true" controls src="snd/2-29_Mary_s_Boy_Child.mp3"></audio>
+
+<div id="standl">
+<div id="wreath" onclick="advent.changeStandl()">
+    <div id="stop"><div onclick="advent.makeItStop();return false;">MAKE IT STOP!</div></div>
+    <div id="legende">Click anywhere</div>
+</div>
+</div>
+</body>
+</html>
