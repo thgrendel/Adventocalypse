@@ -21,7 +21,7 @@ var advent = {
     var rnd = this.getRandomIntInclusive(0, imgcount -1);
     var newImg = 'img/' + this.bilder[rnd];
     $('#standl').css("background-image", "url(" + newImg + ")");
-    var playernum = 'audio-' + this.getRandomIntInclusive(1, 9);
+    var playernum = 'audio-' + this.getRandomIntInclusive(1, 11);
     var player = document.getElementById(playernum);
     player.play();
     player.volume = 1;

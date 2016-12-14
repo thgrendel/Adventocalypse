@@ -27,6 +27,8 @@
 <audio id="audio-7" autobuffer="true" controls src="snd/2-25_Santa_Claus_Is_Coming_To_Town.mp3"></audio>
 <audio id="audio-8" autobuffer="true" controls src="snd/2-27_Jingle_Bells.mp3"></audio>
 <audio id="audio-9" autobuffer="true" controls src="snd/2-29_Mary_s_Boy_Child.mp3"></audio>
+<audio id="audio-10" autobuffer="true" controls src="snd/2-13_Rudolph.mp3"></audio>
+<audio id="audio-11" autobuffer="true" controls src="snd/3-03_Kling_Gloeckchen.mp3"></audio>
 
 <div id="standl">
 <div id="wreath" onclick="advent.changeStandl()">
@@ -35,4 +37,9 @@
 </div>
 </div>
 </body>
+<script>
+    $(document).ready(function (ev) {
+        advent.changeStandl();
+    })
+</script>
 </html>
