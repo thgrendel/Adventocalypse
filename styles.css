@@ -40,7 +40,7 @@
     display: block;
     visibility: hidden; }
 
-#legende {
+#legende, #legende2 {
   background: url(clicki.png) no-repeat;
   background-size: 300px;
   position: absolute;
@@ -49,6 +49,12 @@
   top: 0;
   text-indent: -50000px;
   right: 50px; }
+
+#legende2 {
+  top: 100px;
+  right: -80px;
+  background: url(more.png) no-repeat;
+  background-size: 200px; }
 
 audio {
   display: none; }
